@@ -54,7 +54,7 @@ layout: default
 <br/>
 <br/>
 
-### Maintains varied experience across industries: **legal** (global law firm), **energy** (non-profit research firm), **environment** (water quality lab), **healthcare** (health information management consulting), **finance** (investment advisor), **government** (local public works), **real estate** (home remodeling firm), **transportation** (passenger rail), and **non-profit** (mental health services) sectors.
+### Maintains diverse experience across industries: **legal** (global law firm), **energy** (non-profit research firm), **environment** (water quality lab), **healthcare** (health information management consulting), **finance** (investment advisor), **government** (local public works), **real estate** (home remodeling firm), **transportation** (passenger rail), and **non-profit** (mental health services) sectors.
 
 <br/>
 <br/>

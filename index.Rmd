@@ -126,11 +126,11 @@ layout: default
 
 <br/>
 
-- ### [**GUI Program**](https://github.com/ParfaitG/GUI_Program): GUI report menu for data selection across multiple filters in Java, PHP, Python, R, SAS, and VBA (MS Access/Excel)
+- ### [**GUI Program**](https://github.com/ParfaitG/GUI_Program): GUI report menu for data selection across multiple filters.
 
 <br/>
 
-- ### [**GUI Table**](https://github.com/ParfaitG/GUI_Table): GUI menu to output tables across multiple filters in Java, PHP, Python, R, SAS, and VBA (MS Access/Excel).
+- ### [**GUI Table**](https://github.com/ParfaitG/GUI_Table): GUI menu to output tables across multiple filters.
 
 <br/>
 
@@ -146,11 +146,11 @@ layout: default
 
 <br/>
 
-- ### [**Random Data**](https://github.com/ParfaitG/RANDOM_DATA): Scripts to generate random data across various data types (int, character, numeric, boolean, date)
+- ### [**Random Data**](https://github.com/ParfaitG/RANDOM_DATA): Scripts to generate random data across various data types (int, character, numeric, boolean, date).
 
 <br/>
 
-- ### [**Text Parse**](https://github.com/ParfaitG/TEXT_PARSE): Text parsing scripts using Regex 
+- ### [**Text Parse**](https://github.com/ParfaitG/TEXT_PARSE): Text parsing scripts using Regex.
 
 <br/>
 
