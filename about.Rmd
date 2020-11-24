@@ -1,0 +1,61 @@
+---
+title: "About Me"
+layout: default
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width:1200px) and (min-width:760px) {
+  #navbar > ul > li > a {
+     font-size: 0;
+     display:inline-block;
+  }
+  .fa { font-size: initial; }
+}
+</style>
+
+<div style="float:right;margin-left:10px;"><img src="images/PG_Photo.png" alt="ParfaitG pic" height="150px"/></div>
+
+# Parfait Gasana
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+---
+
+
+### Self-descripted data analytics polygot in programming stacks (R, Python), statistical packages (SAS, Stata), databases (SQL Server, Postgres), and everyday software (Excel, Adobe, Tableau)
+
+
+<div style="text-align:center"><img src="images/LinkedIn_Banner.png" alt="ParfaitG avatar" height="150px"/></div>
+
+<br/>
+<br/>
+
+### Works across the data pipeline:
+
+<ul style="font-size:20px; line-height:24px">
+  <li><b>Data Retrieval/Migration</b>: csv, json, xml, sql formats, ETL handling and API integration</li>
+  <li><b>Data Merging/Reshaping</b>: long/wide structures, time series/panel, group/category setup</li>
+  <li><b>Data Cleaning/Munging/Wrangling</b>: cleaning numeric/dates, handling missings, assigning conditional values</li>
+  <li><b>Data Calculation/Aggregation/Modeling</b>: summary statistics, distribution, correlations, linear/non-linear modeling</li>
+  <li><b>Data Visualization/Reporting</b>: point/line/bar charts, HTML/PDF outputs, Jupyter/RMarkdown notebooks, Shiny/Flask apps</li>
+  <li><b>Data Archival/Storage</b>: data warehousing, relational databases, FTP and cloud computing storage</li>
+</ul>
+
+<br/>
+<br/>
+
+### Maintains varied experience across industries: **legal** (global law firm), **energy** (non-profit research firm), **environment** (water quality lab), **healthcare** (health information management consulting), **finance** (investment advisor), **government** (local public works), **real estate** (home remodeling firm), **transportation** (passenger rail), and **non-profit** (mental health services) sectors.
+
+<br/>
+<br/>
+

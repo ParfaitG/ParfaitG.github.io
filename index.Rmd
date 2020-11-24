@@ -1,0 +1,174 @@
+---
+title: "Home"
+layout: default
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width:1200px) and (min-width:760px) {
+  #navbar > ul > li > a {
+     font-size: 0;
+     display:inline-block;
+  }
+  .fa { font-size: initial; }
+  
+  .plotly.html-widget {
+     max-width: 100%;
+     height: 200px;
+  }
+}
+</style>
+
+<br/>
+<br/>
+
+<div style="float:right;margin-top: -100px; margin-left:10px;"><img src="images/ParfaitG_avatar.jpg" alt="ParfaitG avatar" height="125px"/></div>
+
+
+### Welcome! Please tour Parfait Gasana's data analytics projects!
+
+---
+
+# Projects {.tabset .tabset-fade .tabset-pills}
+
+## **Data**
+
+<br/>
+
+- ### [**Data Migration**](https://github.com/ParfaitG/DATA_MIGRATION): Binary, CSV, JSON, SQL, and XML data migration scripts in Java, PHP, Python, R, SAS, and VBA (MS Access and MS Excel).
+
+<br/>
+
+- ### [**Data Structures**](https://github.com/ParfaitG/DATA_STRUCTURES): Scripts overviewing data structures in Java, PHP, Python, R, SAS, and VBA
+
+<br/>
+
+- ### [**Data Aggregation**](https://github.com/ParfaitG/DATA_AGGREGATION): Data aggregation (sum, mean, min, max) scripts in Java, PHP, Python, R, SAS, SQL, XSLT, and VBA (MS Access/MS Excel)
+
+<br/>
+
+- ### [**Data Graph**](https://github.com/ParfaitG/DATA_GRAPH): Bar graph plotting with industry productivity data in Java, PHP, Python, R, SAS, and VBA (MS Access and MS Excel)
+
+<br/>
+
+- ### [**Data Transpose**](https://github.com/ParfaitG/DATA_TRANSPOSE): Scripts to transpose data from long to wide formats in Java, PHP, Python, R, SAS, SQL, XSLT, and VBA (MS Access and MS Excel).
+
+
+## **Databases**
+
+<br/>
+
+- ### [**Connections**](https://github.com/ParfaitG/DATABASE_CONNECTIONS): Java, PHP, Python, R, SAS, and VBA Scripts to connect to file level (SQLite, MS Access) and server level (MySQL, SQL Server) databases using various modules and ODBC drivers.
+
+<br/>
+
+- ### [**Environment Postgres Database Analysis**](https://github.com/ParfaitG/WORKSHOPS/tree/master/MEETUPS/PUG): Python and R Notebook analyzing environment data stored in PostgreSQL database.
+
+<br/>
+
+- ### [**Relational Database GUI Interface**](https://github.com/ParfaitG/MEEKNESS): Data retrieval and GUI interface using multiple RDBMS (Oracle, DB2, SQL Server, Postgres, MySQL, SQLite) and NoSQL (MongoDB) across various web and desktop libraries.
+
+
+## **Analyses**
+
+<br/>
+
+- ### [**Climate Data Analyses**](https://github.com/ParfaitG/WORKSHOPS/tree/master/useR2020/awesome-climate-data): R Notebook demos of various government climate data portals.
+
+<br/>
+
+- ### [**Divvy Analysis**](https://github.com/ParfaitG/DIVVY_TRIPS_ANALYSIS): Tabular and graphical analysis of Chicago's Divvy Bike Sharing Program (2013-2016) by Stations using Python
+
+<br/>
+
+- ### [**Library Analysis**](https://github.com/ParfaitG/LIBRARY_ANALYSIS): Graphical and table data analysis of Chicago and SWAN Public Libraries using R
+
+<br/>
+
+- ### [**311 Service Request Analysis**](https://github.com/ParfaitG/311_SERVICE_REQUESTS): Data Analysis reports and maps of City of Chicago's 311 Service Requests, 2011 - 2016 written in SAS.
+
+
+## **Presentations**
+
+<br/>
+
+- ### [**useR! 2020**](https://github.com/ParfaitG/WORKSHOPS/tree/master/useR2020): "PostgreSQL As a Data Science Database"
+
+<br/>
+
+- ### [**SatRday 2019**](https://github.com/ParfaitG/WORKSHOPS/tree/master/SatRday): "Leveraging Databases in R"
+
+<br/>
+
+- ### [**2QPGConf 2018**](https://github.com/ParfaitG/WORKSHOPS/tree/master/2QPGCONF): "Leveraging PostgreSQL in Data Science with Python and R"
+
+<br/>
+
+- ### [**Chicago Python User Group Meetup**](https://nbviewer.jupyter.org/github/ParfaitG/WORKSHOPS/blob/master/MEETUPS/ChiPy/Pandas%20Data%20Analysis%20CTA%20Ridership.ipynb): "Pandas Data Analysis CTA Ridership"
+
+<br/>
+
+- ### [**Chicago R User Group Meetup**](https://nbviewer.jupyter.org/github/ParfaitG/WORKSHOPS/blob/master/MEETUPS/CRUG/R%20Data%20Analysis%20CTA%20Ridership.nb.ipynb): "R Data Analysis CTA Ridership"
+
+<br/>
+
+- ### [**Chicago Postgres User Group Meetup**](https://github.com/ParfaitG/WORKSHOPS/tree/master/MEETUPS/PUG):
+  - ### ["PostgreSQL As A Data Science Database in Python "](https://raw.githack.com/ParfaitG/WORKSHOPS/master/MEETUPS/PUG/EnvironmentDB_Analysis_py.html)
+  - ### ["PostgreSQL As A Data Science Database in R"](https://raw.githack.com/ParfaitG/WORKSHOPS/master/MEETUPS/PUG/EnvironmentDB_Analysis_R.nb.html)
+
+
+## **Coding**
+
+<br/>
+
+- ### [**GUI Program**](https://github.com/ParfaitG/GUI_Program): GUI report menu for data selection across multiple filters in Java, PHP, Python, R, SAS, and VBA (MS Access/Excel)
+
+<br/>
+
+- ### [**GUI Table**](https://github.com/ParfaitG/GUI_Table): GUI menu to output tables across multiple filters in Java, PHP, Python, R, SAS, and VBA (MS Access/Excel).
+
+<br/>
+
+- ### [**File System Handle**](https://github.com/ParfaitG/FILE_SYSTEM_HANDLE): Scripts to copy, move, delete select or bulk files with command line arguments.
+
+<br/>
+
+- ### [**MS Access Toolkit**](https://github.com/ParfaitG/MSACCESS_TOOLKIT): Microsoft Access tool kit with VBA modules for everyday needs.
+
+<br/>
+
+- ### [**PDF Output**](https://github.com/ParfaitG/PDF_OUTPUT): Scripts for CSV data processing to PDF reports.
+
+<br/>
+
+- ### [**Random Data**](https://github.com/ParfaitG/RANDOM_DATA): Scripts to generate random data across various data types (int, character, numeric, boolean, date)
+
+<br/>
+
+- ### [**Text Parse**](https://github.com/ParfaitG/TEXT_PARSE): Text parsing scripts using Regex 
+
+<br/>
+
+- ### [**Web Scraping**](https://github.com/ParfaitG/WEB_SCRAPING): HTML table download scripts.
+
+<br/>
+
+- ### [**XSLT Transformation**](https://github.com/ParfaitG/XSLT_TRANSFORM): XSLT scripts to transform XML documents.
+
+
+
+# 
+
+<br/>
+<br/>
+<br/>
+
+
+
+<br/>
+<br/>

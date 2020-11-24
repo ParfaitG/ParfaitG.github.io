@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Home</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">ParfaitG</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-user"></span>
+     
+    About
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://stackoverflow.com/users/1422451/parfait">
+    <span class="fa fa-stack-overflow"></span>
+     
+    StackOverflow
+  </a>
+</li>
+<li>
+  <a href="https://github.com/ParfaitG">
+    <span class="fa fa-github"></span>
+     
+    GitHub
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/parfait-gasana-700b8012/">
+    <span class="fa fa-linkedin"></span>
+     
+    LinkedIn
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Home</h1>
+
+</div>
+
+
+<style type="text/css">
+.main-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width:1200px) and (min-width:760px) {
+  #navbar > ul > li > a {
+     font-size: 0;
+     display:inline-block;
+  }
+  .fa { font-size: initial; }
+  
+  .plotly.html-widget {
+     max-width: 100%;
+     height: 200px;
+  }
+}
+</style>
+<p><br/> <br/></p>
+<div style="float:right;margin-top: -100px; margin-left:10px;">
+<img src="images/ParfaitG_avatar.jpg" alt="ParfaitG avatar" height="125px"/>
+</div>
+<div id="welcome-please-tour-parfait-gasanas-data-analytics-projects" class="section level3">
+<h3>Welcome! Please tour Parfait Gasana’s data analytics projects!</h3>
+<hr />
+</div>
+<div id="projects" class="section level1 tabset tabset-fade tabset-pills">
+<h1>Projects</h1>
+<div id="data" class="section level2">
+<h2><strong>Data</strong></h2>
+<p><br/></p>
+<ul>
+<li><h3 id="data-migration-binary-csv-json-sql-and-xml-data-migration-scripts-in-java-php-python-r-sas-and-vba-ms-access-and-ms-excel."><a href="https://github.com/ParfaitG/DATA_MIGRATION"><strong>Data Migration</strong></a>: Binary, CSV, JSON, SQL, and XML data migration scripts in Java, PHP, Python, R, SAS, and VBA (MS Access and MS Excel).</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="data-structures-scripts-overviewing-data-structures-in-java-php-python-r-sas-and-vba"><a href="https://github.com/ParfaitG/DATA_STRUCTURES"><strong>Data Structures</strong></a>: Scripts overviewing data structures in Java, PHP, Python, R, SAS, and VBA</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="data-aggregation-data-aggregation-sum-mean-min-max-scripts-in-java-php-python-r-sas-sql-xslt-and-vba-ms-accessms-excel"><a href="https://github.com/ParfaitG/DATA_AGGREGATION"><strong>Data Aggregation</strong></a>: Data aggregation (sum, mean, min, max) scripts in Java, PHP, Python, R, SAS, SQL, XSLT, and VBA (MS Access/MS Excel)</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="data-graph-bar-graph-plotting-with-industry-productivity-data-in-java-php-python-r-sas-and-vba-ms-access-and-ms-excel"><a href="https://github.com/ParfaitG/DATA_GRAPH"><strong>Data Graph</strong></a>: Bar graph plotting with industry productivity data in Java, PHP, Python, R, SAS, and VBA (MS Access and MS Excel)</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="data-transpose-scripts-to-transpose-data-from-long-to-wide-formats-in-java-php-python-r-sas-sql-xslt-and-vba-ms-access-and-ms-excel."><a href="https://github.com/ParfaitG/DATA_TRANSPOSE"><strong>Data Transpose</strong></a>: Scripts to transpose data from long to wide formats in Java, PHP, Python, R, SAS, SQL, XSLT, and VBA (MS Access and MS Excel).</h3></li>
+</ul>
+</div>
+<div id="databases" class="section level2">
+<h2><strong>Databases</strong></h2>
+<p><br/></p>
+<ul>
+<li><h3 id="connections-java-php-python-r-sas-and-vba-scripts-to-connect-to-file-level-sqlite-ms-access-and-server-level-mysql-sql-server-databases-using-various-modules-and-odbc-drivers."><a href="https://github.com/ParfaitG/DATABASE_CONNECTIONS"><strong>Connections</strong></a>: Java, PHP, Python, R, SAS, and VBA Scripts to connect to file level (SQLite, MS Access) and server level (MySQL, SQL Server) databases using various modules and ODBC drivers.</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="environment-postgres-database-analysis-python-and-r-notebook-analyzing-environment-data-stored-in-postgresql-database."><a href="https://github.com/ParfaitG/WORKSHOPS/tree/master/MEETUPS/PUG"><strong>Environment Postgres Database Analysis</strong></a>: Python and R Notebook analyzing environment data stored in PostgreSQL database.</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="relational-database-gui-interface-data-retrieval-and-gui-interface-using-multiple-rdbms-oracle-db2-sql-server-postgres-mysql-sqlite-and-nosql-mongodb-across-various-web-and-desktop-libraries."><a href="https://github.com/ParfaitG/MEEKNESS"><strong>Relational Database GUI Interface</strong></a>: Data retrieval and GUI interface using multiple RDBMS (Oracle, DB2, SQL Server, Postgres, MySQL, SQLite) and NoSQL (MongoDB) across various web and desktop libraries.</h3></li>
+</ul>
+</div>
+<div id="analyses" class="section level2">
+<h2><strong>Analyses</strong></h2>
+<p><br/></p>
+<ul>
+<li><h3 id="climate-data-analyses-r-notebook-demos-of-various-government-climate-data-portals."><a href="https://github.com/ParfaitG/WORKSHOPS/tree/master/useR2020/awesome-climate-data"><strong>Climate Data Analyses</strong></a>: R Notebook demos of various government climate data portals.</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="divvy-analysis-tabular-and-graphical-analysis-of-chicagos-divvy-bike-sharing-program-2013-2016-by-stations-using-python"><a href="https://github.com/ParfaitG/DIVVY_TRIPS_ANALYSIS"><strong>Divvy Analysis</strong></a>: Tabular and graphical analysis of Chicago’s Divvy Bike Sharing Program (2013-2016) by Stations using Python</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="library-analysis-graphical-and-table-data-analysis-of-chicago-and-swan-public-libraries-using-r"><a href="https://github.com/ParfaitG/LIBRARY_ANALYSIS"><strong>Library Analysis</strong></a>: Graphical and table data analysis of Chicago and SWAN Public Libraries using R</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="service-request-analysis-data-analysis-reports-and-maps-of-city-of-chicagos-311-service-requests-2011---2016-written-in-sas."><a href="https://github.com/ParfaitG/311_SERVICE_REQUESTS"><strong>311 Service Request Analysis</strong></a>: Data Analysis reports and maps of City of Chicago’s 311 Service Requests, 2011 - 2016 written in SAS.</h3></li>
+</ul>
+</div>
+<div id="presentations" class="section level2">
+<h2><strong>Presentations</strong></h2>
+<p><br/></p>
+<ul>
+<li><h3 id="user-2020-postgresql-as-a-data-science-database"><a href="https://github.com/ParfaitG/WORKSHOPS/tree/master/useR2020"><strong>useR! 2020</strong></a>: “PostgreSQL As a Data Science Database”</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="satrday-2019-leveraging-databases-in-r"><a href="https://github.com/ParfaitG/WORKSHOPS/tree/master/SatRday"><strong>SatRday 2019</strong></a>: “Leveraging Databases in R”</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="qpgconf-2018-leveraging-postgresql-in-data-science-with-python-and-r"><a href="https://github.com/ParfaitG/WORKSHOPS/tree/master/2QPGCONF"><strong>2QPGConf 2018</strong></a>: “Leveraging PostgreSQL in Data Science with Python and R”</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="chicago-python-user-group-meetup-pandas-data-analysis-cta-ridership"><a href="https://nbviewer.jupyter.org/github/ParfaitG/WORKSHOPS/blob/master/MEETUPS/ChiPy/Pandas%20Data%20Analysis%20CTA%20Ridership.ipynb"><strong>Chicago Python User Group Meetup</strong></a>: “Pandas Data Analysis CTA Ridership”</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="chicago-r-user-group-meetup-r-data-analysis-cta-ridership"><a href="https://nbviewer.jupyter.org/github/ParfaitG/WORKSHOPS/blob/master/MEETUPS/CRUG/R%20Data%20Analysis%20CTA%20Ridership.nb.ipynb"><strong>Chicago R User Group Meetup</strong></a>: “R Data Analysis CTA Ridership”</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="chicago-postgres-user-group-meetup"><a href="https://github.com/ParfaitG/WORKSHOPS/tree/master/MEETUPS/PUG"><strong>Chicago Postgres User Group Meetup</strong></a>:</h3>
+<ul>
+<li><h3 id="postgresql-as-a-data-science-database-in-python"><a href="https://raw.githack.com/ParfaitG/WORKSHOPS/master/MEETUPS/PUG/EnvironmentDB_Analysis_py.html">“PostgreSQL As A Data Science Database in Python”</a></h3></li>
+<li><h3 id="postgresql-as-a-data-science-database-in-r"><a href="https://raw.githack.com/ParfaitG/WORKSHOPS/master/MEETUPS/PUG/EnvironmentDB_Analysis_R.nb.html">“PostgreSQL As A Data Science Database in R”</a></h3></li>
+</ul></li>
+</ul>
+</div>
+<div id="coding" class="section level2">
+<h2><strong>Coding</strong></h2>
+<p><br/></p>
+<ul>
+<li><h3 id="gui-program-gui-report-menu-for-data-selection-across-multiple-filters-in-java-php-python-r-sas-and-vba-ms-accessexcel"><a href="https://github.com/ParfaitG/GUI_Program"><strong>GUI Program</strong></a>: GUI report menu for data selection across multiple filters in Java, PHP, Python, R, SAS, and VBA (MS Access/Excel)</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="gui-table-gui-menu-to-output-tables-across-multiple-filters-in-java-php-python-r-sas-and-vba-ms-accessexcel."><a href="https://github.com/ParfaitG/GUI_Table"><strong>GUI Table</strong></a>: GUI menu to output tables across multiple filters in Java, PHP, Python, R, SAS, and VBA (MS Access/Excel).</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="file-system-handle-scripts-to-copy-move-delete-select-or-bulk-files-with-command-line-arguments."><a href="https://github.com/ParfaitG/FILE_SYSTEM_HANDLE"><strong>File System Handle</strong></a>: Scripts to copy, move, delete select or bulk files with command line arguments.</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="ms-access-toolkit-microsoft-access-tool-kit-with-vba-modules-for-everyday-needs."><a href="https://github.com/ParfaitG/MSACCESS_TOOLKIT"><strong>MS Access Toolkit</strong></a>: Microsoft Access tool kit with VBA modules for everyday needs.</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="pdf-output-scripts-for-csv-data-processing-to-pdf-reports."><a href="https://github.com/ParfaitG/PDF_OUTPUT"><strong>PDF Output</strong></a>: Scripts for CSV data processing to PDF reports.</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="random-data-scripts-to-generate-random-data-across-various-data-types-int-character-numeric-boolean-date"><a href="https://github.com/ParfaitG/RANDOM_DATA"><strong>Random Data</strong></a>: Scripts to generate random data across various data types (int, character, numeric, boolean, date)</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="text-parse-text-parsing-scripts-using-regex"><a href="https://github.com/ParfaitG/TEXT_PARSE"><strong>Text Parse</strong></a>: Text parsing scripts using Regex</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="web-scraping-html-table-download-scripts."><a href="https://github.com/ParfaitG/WEB_SCRAPING"><strong>Web Scraping</strong></a>: HTML table download scripts.</h3></li>
+</ul>
+<p><br/></p>
+<ul>
+<li><h3 id="xslt-transformation-xslt-scripts-to-transform-xml-documents."><a href="https://github.com/ParfaitG/XSLT_TRANSFORM"><strong>XSLT Transformation</strong></a>: XSLT scripts to transform XML documents.</h3></li>
+</ul>
+</div>
+</div>
+<div id="section" class="section level1">
+<h1></h1>
+<p><br/> <br/> <br/></p>
+<p><br/> <br/></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

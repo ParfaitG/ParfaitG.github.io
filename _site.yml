@@ -1,0 +1,27 @@
+name: "ParfaitG Project Site" 
+output_dir: "."
+navbar:
+  title: "ParfaitG"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-user 
+      href: about.html
+  right:
+    - text: "StackOverflow"
+      icon: fa-stack-overflow
+      href: https://stackoverflow.com/users/1422451/parfait
+    - text: "GitHub"
+      icon: fa-github
+      href: https://github.com/ParfaitG
+    - text: "LinkedIn"
+      icon: fa-linkedin
+      href: https://www.linkedin.com/in/parfait-gasana-700b8012/
+output:
+  html_document:
+    css: style.css
+    theme: cerulean
+    highlight: textmate
