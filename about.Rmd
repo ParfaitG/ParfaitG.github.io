@@ -32,7 +32,7 @@ layout: default
 ---
 
 
-### Self-descripted data analytics polygot in programming stacks (R, Python), statistical packages (SAS, Stata), databases (SQL Server, Postgres), and everyday software (Excel, Adobe, Tableau)
+### Self-described data analytics polygot in programming stacks (R, Python), statistical packages (SAS, Stata), databases (SQL Server, Postgres), and software (Excel, Adobe, Tableau).
 
 
 <div style="text-align:center"><img src="images/LinkedIn_Banner.png" alt="ParfaitG avatar" height="150px"/></div>
@@ -40,7 +40,7 @@ layout: default
 <br/>
 <br/>
 
-### Works across the data pipeline:
+### Graduate trained in Economics with academic and professional experience across the data pipeline:
 
 <ul style="font-size:20px; line-height:24px">
   <li><b>Data Retrieval/Migration</b>: csv, json, xml, sql formats, ETL handling and API integration</li>
