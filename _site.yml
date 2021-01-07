@@ -11,6 +11,9 @@ navbar:
       icon: fa-user 
       href: about.html
   right:
+    - text: "YouTube"
+      icon: fa-youtube
+      href: https://www.youtube.com/channel/UC7tG4vrXZNsHstGeVeB7w9w
     - text: "StackOverflow"
       icon: fa-stack-overflow
       href: https://stackoverflow.com/users/1422451/parfait
